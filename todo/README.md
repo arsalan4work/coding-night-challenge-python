@@ -15,18 +15,18 @@ pip install click
 You can run these command to use it:
 
 ## To run this on cli
-```cmd
+
 uv run python todo.py add "Task Description"
 
 ## To check the list of total task
-```cmd
+
 uv run python todo.py lists
 
 ## To mark as completed task
-```cmd
+
 uv run python todo.py complete <task number>
 
 ## To remove task from file
-```cmd
+
 uv run python todo.py remove <task_number>
 
