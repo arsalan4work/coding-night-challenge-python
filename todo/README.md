@@ -12,6 +12,8 @@ You can install the required Python library using pip:
 ```cmd
 pip install click
 
+You can run these command to use it:
+
 ## To run this on cli
 ```cmd
 uv run python todo.py add "Task Description"
