@@ -15,5 +15,4 @@ A simple and secure password generator built using **Streamlit**. This web app a
 ## 🛠 Installation & Usage
 1. Clone this repository:
    ```cmd
-   git clone https://github.com/arsalan4work/password-generator.git
-```
+   git clone https://github.com/arsalan4work/coding-night-challenge-python/tree/main/password-generator
