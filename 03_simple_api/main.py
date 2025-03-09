@@ -41,15 +41,11 @@ money_quotes = [
 ]
 
 @app.get("/side_hustles")
-def get_side_hustles(apiKey:str):
+def get_side_hustles():
    """ Returns a random side hustle idea"""
-   if apiKey != "12345":
-      return {"Error": "Invalid API Key!"}
-   return {"Side Hustles: ": random.choice(side_hustles)}
+   return {"side_hustles: ": random.choice(side_hustles)}
 
 @app.get("/money_quotes")
-def get_money_quotes(apiKey:str):
+def get_money_quotes():
    """ Returns a random money quotes """
-   if apiKey != "12345":
-      return {"Error": "Invalid API Key!"}
-   return {"Money Quotes: ": random.choice(money_quotes)}
+   return {"money_quotes: ": random.choice(money_quotes)}
