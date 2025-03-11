@@ -75,4 +75,4 @@ if not data.empty:
     st.dataframe(data.sort_values(by="Date", ascending=False), use_container_width=True)
 
 # Footer with credit
-st.write("🚀 Built with ❤️ by Asharib Ali")
+st.write("🚀 Built with ❤️ by Muhammad Arsalan")
